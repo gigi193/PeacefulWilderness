@@ -10776,35 +10776,35 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #ff6e42 !important;
+  color: #656d4a !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #f53900 !important;
+  color: #414833 !important;
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #656d4a !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #494f54 !important;
+  color: #414833 !important;
 }
 
 .text-success {
-  color: #6ab04c !important;
+  color: #656d4a !important;
 }
 
 a.text-success:hover, a.text-success:focus {
-  color: #4a7b35 !important;
+  color: #414833 !important;
 }
 
 .text-info {
-  color: #1289A7 !important;
+  color: #656d4a !important;
 }
 
 a.text-info:hover, a.text-info:focus {
-  color: #0b5062 !important;
+  color: #414833 !important;
 }
 
 .text-warning {
@@ -11433,8 +11433,8 @@ textarea.form-control {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
+  background: #ede0d0;
+  color: #ede0d0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -11478,7 +11478,7 @@ textarea.form-control {
 }
 
 .header .shape svg path {
-  fill: #fff;
+  fill: #ede0d4;
 }
 
 @media (max-width: 1199.98px) {
