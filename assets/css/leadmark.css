@@ -67,9 +67,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #444;
+  color: #ede0d4;
   text-align: left;
-  background-color: #fff;
+  background-color: #ede0d4;
 }
 
 [tabindex="-1"]:focus {
@@ -478,7 +478,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #414833;
 }
 
 .blockquote-footer::before {
@@ -492,8 +492,8 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: #ede0d4;
+  border: 1px solid #e6ceb8;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -510,7 +510,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d;
+  color: #414833;
 }
 
 code {
@@ -540,7 +540,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #1b1b1b;
+  color: #414833;
 }
 
 pre code {
@@ -1821,7 +1821,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #444;
+  color: #414833;
 }
 
 .table th,
@@ -1871,7 +1871,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: #444;
+  color: #414833;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -11510,11 +11510,13 @@ textarea.form-control {
   fill: #f5f8fc;
 }
 
+/*changed font-size:2.4rem to 2.0rem;
+changed color:#444 to ede0d4 */
 .header-title {
-  font-size: 2.4rem;
+  font-size: 2.0rem;
   font-weight: bold;
   opacity: .8;
-  color: #444;
+  color: #ede0d4;
 }
 
 .header-mini {
