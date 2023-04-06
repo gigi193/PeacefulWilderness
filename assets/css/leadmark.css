@@ -11627,7 +11627,7 @@ changed color:#444 to ede0d4 */
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/section.jpg) no-repeat center top fixed;
+  background: url(../imgs/sunset-compressed.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #ede0d4;
 }
