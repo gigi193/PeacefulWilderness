@@ -8920,6 +8920,7 @@ button.bg-dark:focus {
 .mt-3,
 .my-3 {
   margin-top: 1rem !important;
+  color: #414833;
 }
 
 .mr-3,
@@ -11585,6 +11586,7 @@ changed color:#444 to ede0d4 */
   font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
   padding-bottom: 7px;
   font-weight: 600;
+  color: 414833;
 }
 
 .section .components-section-title {
