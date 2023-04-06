@@ -2772,14 +2772,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #ede0d4;
-  background-color: #7f5539;
-  border-color: #7f5539;
+  background-color: #414833;
+  border-color: #ede0d4;
 }
 
 .btn-primary:hover {
   color: #ede0d4;
-  background-color: #7f5539;
-  border-color: #7f5539;
+  background-color: #656d4a;
+  border-color: #ede0d4;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -5086,6 +5086,7 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  color: #656d4a;
 }
 
 .card-subtitle {
@@ -8920,7 +8921,6 @@ button.bg-dark:focus {
 .mt-3,
 .my-3 {
   margin-top: 1rem !important;
-  color: #414833;
 }
 
 .mr-3,
