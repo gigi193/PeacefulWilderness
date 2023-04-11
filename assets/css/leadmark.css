@@ -11423,7 +11423,7 @@ textarea.form-control {
   position: relative;
   height: 100vh;
   min-height: 500px;
-  background: url(../imgs/waterfall-compressed.jpg) no-repeat center center fixed;
+  background: url(../imgs/header.jpg) no-repeat center center fixed;
   background-size: cover;
   overflow: hidden;
 }
@@ -11629,7 +11629,7 @@ changed color:#444 to ede0d4 */
 
 .section.has-img-bg {
   position: relative;
-  background: url(../imgs/sunset-compressed.jpg) no-repeat center top fixed;
+  background: url(../imgs/footer.jpg) no-repeat center top fixed;
   background-size: cover;
   color: #ede0d4;
 }
