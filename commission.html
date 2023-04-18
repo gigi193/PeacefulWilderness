@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Peaceful Wilderness Art Gallery and Commissions | Commission</title>
+   <!-- font icons -->
+   <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+   <!-- Bootstrap + Steller  -->
+   <link rel="stylesheet" href="assets/css/leadmark.css">
+</head>
+<body>
+
+   <!-- Page Header -->
+   <header class="header header-mini"> 
+      <div class="header-title">Commission Your Personalized Art</div> 
+      <nav aria-label="breadcrumb">
+         <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Commission</li>
+         </ol>
+      </nav>
+   </header> <!-- End Of Page Header -->
+
+   <!-- main content -->
+   <div class="container">
+    <form method="post" action="form2.php">
+        <ol>
+        <li>Please enter your name:<br />
+        <input type="text" name="name" size="25">
+        </li>
+        <li>Choose your favorite color:<br />
+        <input type="radio" name="color" value="red"> <b>red</b><br />
+        <input type="radio" name="color" value="blue"> <b>blue</b><br />
+        </li>
+        </ol>
+        <input type="submit" name="submit" value="submit">
+        <p>Thanks!
+        </form>
+        <?php
+        if (isset($_POST['submit'])) {
+        $name = $_POST['name'];
+        $color = $_POST['color'];
+        if (!$name) {
+        echo "<p>Please redo the form making sure to enter your name</p>";
+        } elseif (!$color) {
+        echo "<p>Please redo the form making sure to choose a color</p>";
+        } else {
+        echo "<h2>Your Results</h2>";
+        echo "<p>Thanks, <b>$name!</b>";
+        echo "<p>Your favorite color is <b>$color</b></p>";
+        echo "<p><a href=\"form2.php\">start over!</a></p>";
+        }
+        } else {
+        echo "<p>Please complete the form above and click \"submit\"</p>";
+        }
+        ?>
+          
+    </div>
