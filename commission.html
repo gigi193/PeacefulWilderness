@@ -65,6 +65,26 @@
                     method="POST"
                     enctype="multipart/form-data"
                     >
+
+                    <div class="row mt-5">
+                        <div class="col-md-6">
+                           <h6 class="section-secondary-title">Contact Information:</h6> 
+                           <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                         </div>       
+                           <div class="form-group">
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email address">
+                           </div>
+                           <div class="form-group">
+                              <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Date">
+                           </div>
+                           <div class="form-group">
+                              <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+                           </div>
+                        </div>
+
+
+
                     <h3>Contact Information</h3>
                     <label>
                         Name:
@@ -77,11 +97,26 @@
                     </label>
                     <br>
 
-                    <h3>Commission Details</h3>
+                    <h3 class="components-section-title font-weight-normal">Commission Details</h3>
+                    <hr>
+                    <div class="dropdown d-inline-block">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Choose a canvas size:
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Select..</a>
+                        <a class="dropdown-item" href="#">8x10"</a>
+                        <a class="dropdown-item" href="#">11x14"</a>
+                        <a class="dropdown-item" href="#">12x16"</a>
+                        <a class="dropdown-item" href="#">16x20"</a>
+                        <a class="dropdown-item" href="#">18x24"</a>
+                        <a class="dropdown-item" href="#">24x36"</a>
+                        </div>
+                    </div>
 
 
                     <label for="canvas">Choose a canvas size:</label>
-                    <select id="canvas" name="canvas" class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <select id="canvas" name="canvas" class="dropdown d-inline-block show">
                         <option value="dropdown-menu">Select..</option>
                         <option value="dropdown-menu">8x10"</option>
                         <option value="dropdown-menu">11x14"</option>
