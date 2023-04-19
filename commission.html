@@ -65,14 +65,72 @@
                     method="POST"
                     enctype="multipart/form-data"
                     >
+                    <p>Contact Information</p>
+                    <label>
+                        Name:
+                    <input type="text" name="text">
+                    </label>
+
+                    <label>
+                        Phone number:
+                    <input type="number" name="number">
+                    </label>
+
                     <label>
                     Your email:
                     <input type="email" name="email">
                     </label>
+
+                    <p>Commission Details</p>
+
+                    <label for="canvas">Choose a canvas size:</label>
+                    <select id="canvas" name="canvas">
+                        <option value="8x10">8x10"</option>
+                        <option value="11x14">11x14"</option>
+                        <option value="12x16">12x16"</option>
+                        <option value="16x20">16x20"</option>
+                        <option value="18x24">18x24"</option>
+                        <option value="24x36">24x36"</option>
+                    </select>
+
+                    <label for="medium">Choose a medium:</label>
+                    <select id="medium" name="medium">
+                        <option value="oil">Oil</option>
+                        <option value="Acrylic">Acrylic</option>
+                        <option value="Watercolor">Watercolor</option>
+                        <option value="pencil">Pencil</option>
+                        <option value="pastel">Pastel</option>
+                    </select>
+
+                    <label for="style">Choose a style:</label>
+                    <select id="style" name="style">
+                        <option value="Realistic">Realistic</option>
+                        <option value="Impressionistic">Impressionistic</option>
+                        <option value="Abstract">Abstract</option>
+                    </select>
+
                     <label>
-                    Your file:
-                    <input type="file" name="upload">
+                        Desired completion date:
+                        <input type="date" name="date">
                     </label>
+
+                    <label>
+                        Photo Reference:
+                        Please upload the photo you would like the painting to be based on. The photo should be high-resolution and clear, showing the subject(s) clearly. If you have multiple photos or specific instructions, please provide them in the "Additional Instructions" section below.
+                        <input type="file" name="upload">
+                    </label>
+
+                    <label>
+                        Additional Instructions:
+                        Please provide any additional instructions or special requests for the painting, such as specific colors, composition, or other details you would like to include or exclude.
+                        <input type="file" name="upload">
+                    </label>
+
+                    <label>
+                        By submitting this form, I acknowledge that I am requesting a custom painting based on my personal photo, and I understand that the final artwork may vary in style and interpretation. I agree to the terms and conditions set forth by the artist, including the payment, delivery, and copyright policies.
+                        <input type="checkbox" name="checkbox">
+                    </label>
+
                     <button type="submit">Send</button>
                     </form>
                 </div>
