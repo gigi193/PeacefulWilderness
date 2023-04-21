@@ -11760,11 +11760,11 @@ changed color:#444 to ede0d4 */
 input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button {
     align-items: flex-start;
     text-align: center;
-    cursor: default;
+
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 0.1rem;
-    box-sizing: border-box;
+   
     min-width: 110px;
     color: #ede0d4;
     background-color: #656d4a;
